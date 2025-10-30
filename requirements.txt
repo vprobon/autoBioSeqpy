@@ -10,7 +10,9 @@
 #   conda install keras-gpu
 # for gpu utilization
 
-sklearn>=0.0.0
+#sklearn>=0.0.0 # Commented vprobon - see below change to new scikit-learn
+scikit-learn>=1.7.0
+
 
 importlib-metadata>=0.0.0
 Keras>=2.2.4
